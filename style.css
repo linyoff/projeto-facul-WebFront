@@ -1,0 +1,144 @@
+header{
+    background: #e7c8fc;
+    margin: 20px 20px 20px 20px;
+}
+
+#logopage {
+    width: 13%;
+    margin: 20px 0 0 40px;
+}
+
+nav {
+    position: absolute;
+    top: 13%;
+    right: 20%;
+    left: 20%;
+    letter-spacing: 2px;
+    
+}
+
+.link-nav{
+    border-radius: 10px;
+    border: 3px groove #bc5ffa;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #552d72;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav a:hover{
+    font-size: 35px;
+}
+
+body {
+    background-color:#C0C0C0; /*cor de fundo*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+.principal{
+    margin: 0 20% 25% 20%;
+}
+
+h1 {
+    font-size: 50px; /*tamanho da fonte titulo*/
+    text-align: center;
+    font-style: bold;
+    margin-left: 25px;
+}
+
+#introducao {
+    text-align: justify; /*centralizando paragrafos*/
+    font-size: 30px;
+}
+
+#saiba-mais{
+    font-size: 20px;
+}
+
+#cat1{
+    width: 30%;
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.materia{
+    margin: 0 20% 0 20%;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#motivos-gatos{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.motivos{
+    margin: 0 20% 10% 20%;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#gato-leal{
+    width: 50%;
+}
+
+#gato-independente{
+    width: 50%;
+}
+
+#gato-asseado{
+    width: 50%;
+}
+
+#gato-cacador{
+    width: 50%;
+}
+
+#gato-amoroso{
+    width: 50%;
+}
+
+.afeto-gatos{
+    list-style-type: square;
+    font-size: 20px;
+}
+
+#blog {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 11%;
+}
+
+.rodape{
+    background: #7f569c;
+}
+
+.sobre{
+    margin: 0 80% 0 5%;
+}
+
+#logorodape{
+    margin: 0 10% 0 80%;
+    width: 9%;
+}
+
+.copyright{
+    text-align: center;
+    margin: auto;
+}
