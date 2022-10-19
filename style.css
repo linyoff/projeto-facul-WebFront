@@ -11,13 +11,13 @@ header{
 nav {
     position: absolute;
     top: 13%;
-    right: 20%;
-    left: 20%;
+    display: inline;
     letter-spacing: 2px;
     
 }
 
 .link-nav{
+    padding: 8px;
     border-radius: 10px;
     border: 3px groove #bc5ffa;
 }
@@ -33,56 +33,112 @@ nav a {
     color: #552d72;
     font-weight: bold;
     font-size: 30px;
+    transition: 0.3s all;
 }
 
 nav a:hover{
-    font-size: 35px;
+    background:#9b80ad
 }
 
 body {
-    background-color:#C0C0C0; /*cor de fundo*/
+    background-color:#C0C0C0; 
     font-family: 'Quicksand', sans-serif;
 }
 
 .principal{
-    margin: 0 20% 25% 20%;
+    margin: 0 20% 5% 20%;
 }
 
 h1 {
-    font-size: 50px; /*tamanho da fonte titulo*/
+    font-size: 40px; 
     text-align: center;
     font-style: bold;
-    margin-left: 25px;
 }
 
 #introducao {
-    text-align: justify; /*centralizando paragrafos*/
+    text-align: justify; 
     font-size: 30px;
-}
-
-#saiba-mais{
-    font-size: 20px;
 }
 
 #cat1{
     width: 30%;
     margin-left: 40%;
-    display: inline-block;
 }
+
+/*definições novidades e pag blog cat*/
+p{
+    margin-top: 5%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.link-login{
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 2% auto 2%;
+    background: #7f569c;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+.link-login a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link-login:hover{
+    transform: scale(1.1);
+    background: #694881;
+}
+
+.novidades h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 3%;
+}
+
+.novidades{
+    margin: 2% 5% 3% 5%;
+    text-align: center;
+}
+
+.novidades a{
+    color: black;
+}
+
+.novidades li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle ;
+    background: #a6a0aa;
+    margin: 5% 2% 0 0;
+    width: 500px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 9px;
+    transition: 0.5s all;
+    
+}
+
+.novidades li:hover{
+    background: #86818a;
+    transform: scale(1.03);
+}
+
+/*definições pagina motivos para ter um gato*/
 
 .materia{
     margin: 0 20% 0 20%;
 }
 
-p {
+.materia p {
     font-size: 20px;
     text-align: left;
-}
-
-#motivos-gatos{
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
 }
 
 .motivos{
@@ -119,18 +175,46 @@ h2 {
     font-size: 20px;
 }
 
-#blog {
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 11%;
+/*definições pag contato*/
+form{
+    margin: 60px;
+    margin-left: 35%;
 }
 
+form input, form textarea, form fieldset{
+    display: block;
+    padding: 8px 8px;
+    width: 45%;
+    margin: 10px 10px 25px 0;
+}
+
+form select{
+    cursor: pointer;
+}
+
+.enviar{
+    width: 350px;
+    font-size: 20px;
+    background: #7f569c;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}
+
+/*rodape das paginas*/
 .rodape{
     background: #7f569c;
 }
 
 .sobre{
     margin: 0 80% 0 5%;
+    font-size: 20px;
 }
 
 #logorodape{
