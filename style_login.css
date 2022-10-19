@@ -1,0 +1,9 @@
+body {
+    background:#C0C0C0; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+div{
+    display: inline;
+    width: 300px;
+}
